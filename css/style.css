@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #262626;
+}
+
+p {
+    text-align: justify;
+    font-size: 8px;
+    line-height: 8px;
+    background-image: url(../img/image.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: grayscale(100%);
+}
+
